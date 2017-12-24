@@ -12,6 +12,7 @@ from keras.models import Sequential
 from keras.layers import Dense, Dropout, Activation
 from keras.utils import to_categorical
 
+
 mushroom_data = pd.read_csv('mushrooms.csv')
 from sklearn.preprocessing import LabelEncoder
 encoder = LabelEncoder()
